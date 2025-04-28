@@ -6,5 +6,72 @@
     <link rel="stylesheet" href="./styles.css" />
     <title>Sign-up Form</title>
   </head>
-  <body></body>
+  <body>
+    <main class="main-container">
+      <section class="sidebar-container">
+        <div class="sidebar">
+          <div class="logo-container">
+            <img src="./images/sidebar-logo.png" alt="Odin Logo" />
+            <h1 class="logo-text primary-heading">Odin</h1>
+          </div>
+        </div>
+      </section>
+
+      <section class="content-container">
+        <article class="form-info">
+          <p class="text">
+            This is not a real online service! You know you need something like
+            this in your life to help you realize your deepest dreams. Sign up
+            <span class="italic">now</span> to get started.
+          </p>
+          <p class="text">You <span class="italic">know</span> you want to.</p>
+        </article>
+
+        <form class="sign-up-form" action="#" method="">
+          <div class="form-controls">
+            <h2 class="secondary-heading">Let's do this!</h2>
+            <div class="form-group">
+              <label for="firstName">First Name</label>
+              <input type="text" name="firstName" id="firstName" required />
+            </div>
+            <div class="form-group">
+              <label for="lastName">Last Name</label>
+              <input type="text" name="lastName" id="lastName" required />
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" name="email" id="email" required />
+            </div>
+            <div class="form-group">
+              <label for="phoneNumber">Phone Number</label>
+              <input type="tel" name="phoneNumber" id="phoneNumber" required />
+            </div>
+            <div class="form-group">
+              <label for="password">Password</label>
+              <input type="password" name="password" id="password" required />
+            </div>
+            <div class="form-group">
+              <label for="confirmPassword">Confirm Password</label>
+              <input
+                type="password"
+                name="confirmPassword"
+                id="confirmPassword"
+                required
+              />
+            </div>
+          </div>
+          <button class="sign-up-form-button" type="submit">
+            Create Account
+          </button>
+        </form>
+
+        <article class="account-info">
+          <p class="text">
+            Already have an account?
+            <a href="#" target="_blank" rel="noopener noreferrer">Log in</a>
+          </p>
+        </article>
+      </section>
+    </main>
+  </body>
 </html>
