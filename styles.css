@@ -93,9 +93,18 @@ body {
   font-family: var(--default-font);
 }
 
+.italic {
+  font-style: italic;
+}
+
+.bold {
+  font-weight: bold;
+}
+
 .main-container {
   height: 100vh;
   display: flex;
+  flex-wrap: wrap;
 }
 
 .sidebar-container {
@@ -105,6 +114,7 @@ body {
   display: flex;
   flex-direction: column;
   padding: 1.6rem 0;
+  min-width: 350px;
 }
 
 .logo-container {
@@ -153,4 +163,19 @@ body {
 
 .content-container {
   flex: 2;
+  padding: 9.6rem 3.2rem;
+}
+
+.form-info {
+  background-color: red;
+  min-width: 50ch;
+  max-width: 75ch;
+}
+
+.form-info > :first-child {
+  margin-bottom: 1.6rem;
+}
+
+.form-info > :last-child {
+  margin-bottom: 1.8rem;
 }
