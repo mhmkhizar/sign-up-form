@@ -140,6 +140,7 @@ body {
   font-size: 1.2rem;
   text-align: center;
   margin-top: auto;
+  text-shadow: 0 0 4px #000000;
 }
 
 .image-credit a {
