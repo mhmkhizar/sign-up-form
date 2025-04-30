@@ -7,6 +7,13 @@
   font-display: swap;
 }
 
+:root {
+  --default-font: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  --logo-font: "Norse", system-ui, "Segoe UI", Roboto, Helvetica, Arial,
+    sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
 *,
 *::before,
 *::after {
@@ -83,8 +90,7 @@ html {
 
 body {
   font-size: 1.6rem;
-  font-family: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif,
-    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-family: var(--default-font);
 }
 
 .main-container {
@@ -105,6 +111,7 @@ body {
   justify-content: center;
   align-items: center;
   width: 100%;
+  font-size: 5rem;
 }
 
 .sidebar-logo {
@@ -115,8 +122,8 @@ body {
 .logo-text {
   color: #ffffff;
   text-transform: uppercase;
-  font-family: "Norse";
-  font-size: clamp(2.4rem, 100%, 3.6rem);
+  font-family: var(--logo-font);
+  font-size: clamp(4.8rem, calc(1rem + 5vw), 7.2rem);
 }
 
 .content-container {
