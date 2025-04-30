@@ -1,3 +1,12 @@
+@font-face {
+  font-family: "Norse";
+  src: url("./fonts/norse-bold/Norse-Bold.woff2") format("woff2"),
+    url("./fonts/norse-bold/Norse-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
 *,
 *::before,
 *::after {
@@ -61,4 +70,55 @@ h6 {
 #root,
 #__next {
   isolation: isolate;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+.main-container {
+  height: 100vh;
+  display: flex;
+}
+
+.sidebar-container {
+  flex: 1;
+  background: url(./images/sidebar-background.jpg) center / cover no-repeat;
+}
+
+.logo-container {
+  margin-top: 14.4rem;
+  padding: 0.8rem;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.sidebar-logo {
+  width: clamp(5rem, 20%, 7.5rem);
+  height: auto;
+}
+
+.logo-text {
+  color: #ffffff;
+  text-transform: uppercase;
+  font-family: "Norse";
+  font-size: clamp(2.4rem, 100%, 3.6rem);
+}
+
+.content-container {
+  flex: 2;
 }
