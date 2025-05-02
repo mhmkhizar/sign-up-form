@@ -63,3 +63,7 @@ Contributions are welcome! If you have suggestions or improvements, feel free to
 ## Contact
 
 For any questions or feedback, please contact the project maintainer.
+
+## Author
+
+Created by [Muhammad Khizar](https://github.com/mhmkhizar).
