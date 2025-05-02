@@ -12,8 +12,8 @@ This project is a responsive and accessible sign-up form designed to provide a c
 
 ## Technologies Used
 
-- **HTML**: Structure of the calculator.
-- **CSS**: Styling and layout of the calculator.
+- **HTML**: Structure of the form.
+- **CSS**: Styling and layout of the form.
 
 ## File Structure
 
