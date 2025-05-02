@@ -60,10 +60,6 @@ The project is not yet responsive or optimized for mobile devices.
 - **Background Image**: Photo by [Halie West](https://unsplash.com/@haliewestphoto) on [Unsplash](https://unsplash.com).
 - **Font**: "Norse" font integrated for a unique design.
 
-## License
-
-This project is open-source and available under the MIT License. Feel free to use, modify, and distribute it as needed.
-
 ## Contributing
 
 Contributions are welcome! If you have suggestions or improvements, feel free to open an issue or submit a pull request.
@@ -75,3 +71,7 @@ For any questions or feedback, please contact the project maintainer.
 ## Author
 
 Created by [Muhammad Khizar](https://github.com/mhmkhizar).
+
+## License
+
+This project is open-source and available under the [MIT License](LICENSE).
