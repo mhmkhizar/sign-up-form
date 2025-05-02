@@ -2,6 +2,10 @@
 
 This project is a responsive and accessible sign-up form designed to provide a clean and user-friendly interface for users to create an account. It is built using HTML and CSS, with a focus on modern design principles and best practices.
 
+## Demo
+
+You can view a live demo of the calculator [here](https://mhmkhizar.github.io/sign-up-form/).
+
 ## Features
 
 - **Responsive Design**: The layout adapts seamlessly to different screen sizes, ensuring a great user experience on both desktop and mobile devices.
