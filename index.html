@@ -83,6 +83,8 @@
                     type="password"
                     name="password"
                     id="password"
+                    pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[\W_]).{8,}"
+                    title="Must be at least 8 characters and include uppercase, lowercase, number, and special character"
                     required
                   />
                 </div>
@@ -92,6 +94,8 @@
                     type="password"
                     name="confirmPassword"
                     id="confirmPassword"
+                    pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[\W_]).{8,}"
+                    title="Must be at least 8 characters and include uppercase, lowercase, number, and special character"
                     required
                   />
                 </div>
