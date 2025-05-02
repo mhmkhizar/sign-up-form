@@ -1,6 +1,6 @@
 # Sign-up Form
 
-This project is a responsive and accessible sign-up form designed to provide a clean and user-friendly interface for users to create an account. It is built using HTML and CSS, with a focus on modern design principles and best practices.
+This project is a responsive and accessible sign-up form created as part of [The Odin Project](https://www.theodinproject.com/) curriculum. It features a clean, user-friendly interface for account creation and is built with HTML and CSS, emphasizing modern design principles and best practices.
 
 ## Demo
 
