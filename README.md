@@ -10,6 +10,11 @@ This project is a responsive and accessible sign-up form designed to provide a c
 - **Accessible Design**: Follows accessibility best practices to ensure the form is usable for all users.
 - **Modern CSS Techniques**: Utilizes CSS variables, flexbox, and media queries for a clean and maintainable codebase.
 
+## Technologies Used
+
+- **HTML**: Structure of the calculator.
+- **CSS**: Styling and layout of the calculator.
+
 ## File Structure
 
 ### Key Files
