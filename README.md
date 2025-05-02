@@ -8,7 +8,6 @@ You can view a live demo of the form [here](https://mhmkhizar.github.io/sign-up-
 
 ## Features
 
-- **Responsive Design**: The layout adapts seamlessly to different screen sizes, ensuring a great user experience on both desktop and mobile devices.
 - **Custom Font Integration**: Includes the "Norse" font for a unique and professional look.
 - **Form Validation**: Implements client-side validation for required fields, including password strength requirements.
 - **Accessible Design**: Follows accessibility best practices to ensure the form is usable for all users.
