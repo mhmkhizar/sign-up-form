@@ -4,7 +4,7 @@ This project is a responsive and accessible sign-up form designed to provide a c
 
 ## Demo
 
-You can view a live demo of the calculator [here](https://mhmkhizar.github.io/sign-up-form/).
+You can view a live demo of the form [here](https://mhmkhizar.github.io/sign-up-form/).
 
 ## Features
 
